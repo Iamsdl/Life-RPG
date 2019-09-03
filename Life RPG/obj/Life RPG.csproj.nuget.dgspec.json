@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\My Stuff\\SDL\\Programming\\GitHub repos\\Life-RPG\\Life RPG\\Life RPG\\Life RPG.csproj": {}
+    "F:\\My Stuff\\SDL\\Programming\\GitHub repos\\Life-RPG\\Life RPG\\Life RPG.csproj": {}
   },
   "projects": {
-    "F:\\My Stuff\\SDL\\Programming\\GitHub repos\\Life-RPG\\Life RPG\\Life RPG\\Life RPG.csproj": {
+    "F:\\My Stuff\\SDL\\Programming\\GitHub repos\\Life-RPG\\Life RPG\\Life RPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Stuff\\SDL\\Programming\\GitHub repos\\Life-RPG\\Life RPG\\Life RPG\\Life RPG.csproj",
+        "projectUniqueName": "F:\\My Stuff\\SDL\\Programming\\GitHub repos\\Life-RPG\\Life RPG\\Life RPG.csproj",
         "projectName": "Life RPG",
-        "projectPath": "F:\\My Stuff\\SDL\\Programming\\GitHub repos\\Life-RPG\\Life RPG\\Life RPG\\Life RPG.csproj",
+        "projectPath": "F:\\My Stuff\\SDL\\Programming\\GitHub repos\\Life-RPG\\Life RPG\\Life RPG.csproj",
         "packagesPath": "C:\\Users\\SDL\\.nuget\\packages\\",
-        "outputPath": "F:\\My Stuff\\SDL\\Programming\\GitHub repos\\Life-RPG\\Life RPG\\Life RPG\\obj\\",
+        "outputPath": "F:\\My Stuff\\SDL\\Programming\\GitHub repos\\Life-RPG\\Life RPG\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

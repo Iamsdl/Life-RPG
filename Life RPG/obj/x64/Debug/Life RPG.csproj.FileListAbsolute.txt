@@ -1,0 +1,50 @@
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\App.xbf
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Dialogs\EditTextDialog.xbf
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\MainPage.xbf
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Life RPG.xr.xml
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Life RPG.exe
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Life RPG.pdb
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\resources.pri
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\AppxManifest.xml
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Core\AppxManifest.xml
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Core\Life RPG.exe
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Life RPG.build.appxrecipe
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\System.Runtime.dll
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\App.g.i.cs
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\App.g.cs
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\Dialogs\EditTextDialog.g.i.cs
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\Dialogs\EditTextDialog.g.cs
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\MainPage.g.i.cs
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\MainPage.g.cs
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\XamlTypeInfo.g.cs
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\App.xaml
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\Dialogs\EditTextDialog.xaml
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\MainPage.xaml
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\App.xbf
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\Dialogs\EditTextDialog.xbf
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\MainPage.xbf
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\XamlSaveStateFile.xml
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\Life RPG.csproj.CoreCompileInputs.cache
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\Life RPG.csproj.CopyComplete
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\Life RPG.exe
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\Life RPG.pdb
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\ResourceHandlingTask.state
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\priconfig.xml
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\priconfig.xml.intermediate
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\unfiltered.layout.resfiles
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\filtered.layout.resfiles
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\filtered.layout.resfiles.intermediate
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\excluded.layout.resfiles
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\excluded.layout.resfiles.intermediate
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\resources.resfiles
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\resources.resfiles.intermediate
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\pri.resfiles
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\pri.resfiles.intermediate
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\qualifiers.txt
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\qualifiers.txt.intermediate
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\ProjectArchitectures.txt
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885202160000000.json
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\Life RPG.csprojAssemblyReference.cache

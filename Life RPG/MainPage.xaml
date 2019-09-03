@@ -6,9 +6,43 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Width="1920"
+    Height="1080">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2.5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.25*"/>
+            <ColumnDefinition Width="6*"/>
+        </Grid.ColumnDefinitions>
+        <Image Name="imgCharacterImage"
+               Stretch="Fill"
+               Source="Assets\Square44x44Logo.scale-200.png"
+               MinWidth="50"
+               MinHeight="50"
+               Tapped="ImgCharacterImage_Tapped"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"/>
+        <StackPanel HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Grid.Column="1"
+                    Margin="0,20,0,0">
+            <TextBlock Name="txtCharacterName"
+                       Text="Character Name"
+                       FontSize="40"
+                       TextWrapping="WrapWholeWords"
+                       Tapped="TxtCharacterName_Tapped"/>
+            <TextBlock Name="txtCharacterDescription"
+                       Text="Character Description"
+                       FontSize="30"
+                       TextWrapping="WrapWholeWords"
+                       Tapped="TxtCharacterDescription_Tapped"/>
+        </StackPanel>
+
 
     </Grid>
 </Page>
