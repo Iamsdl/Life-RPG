@@ -121,7 +121,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Character.cs" />
+    <Compile Include="GlobalRules.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reward.cs" />
+    <Compile Include="Skill.cs" />
+    <Compile Include="Task.cs" />
     <EmbeddedResource Include="Properties\CharacterLibrary.rd.xml" />
   </ItemGroup>
   <ItemGroup>
