@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CharacterLibrary;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,6 +15,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Newtonsoft.Json;
 
 namespace Life_RPG
 {
@@ -22,12 +24,19 @@ namespace Life_RPG
     /// </summary>
     sealed partial class App : Application
     {
+        private static readonly string workingDirectory = Directory.GetCurrentDirectory();
+        private static readonly string saveFolder = "Saves";
+        private static readonly string saveFolderPath = Path.Combine(workingDirectory, saveFolder);
+        private static readonly string saveFileName = "character.char";
+        private static readonly string saveFilePath = Path.Combine(saveFolderPath, saveFileName);
+
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
         public App()
         {
+            
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }
@@ -54,6 +63,8 @@ namespace Life_RPG
                 {
                     //TODO: Load state from previously suspended application
                 }
+
+                LoadCharacterFromFile();
 
                 // Place the frame in the current Window
                 Window.Current.Content = rootFrame;
@@ -94,7 +105,30 @@ namespace Life_RPG
         {
             var deferral = e.SuspendingOperation.GetDeferral();
             //TODO: Save application state and stop any background activity
+            SaveCharacterToFile();
             deferral.Complete();
+        }
+
+        private void SaveCharacterToFile()
+        {
+            if (!Directory.Exists(saveFolderPath))
+            {
+                DirectoryInfo directoryInfo = new DirectoryInfo(workingDirectory);
+                directoryInfo.Attributes = FileAttributes.Normal;
+                Directory.CreateDirectory(saveFolderPath);
+            }
+            string json = JsonConvert.SerializeObject(Character.Instance);
+
+            File.WriteAllText(saveFilePath, json);
+        }
+
+        private void LoadCharacterFromFile()
+        {
+            if (File.Exists(saveFilePath))
+            {
+                string json = File.ReadAllText(saveFilePath);
+                Character.Instance = JsonConvert.DeserializeObject<CharacterInstance>(json);
+            }
         }
     }
 }

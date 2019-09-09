@@ -8,11 +8,6 @@ namespace CharacterLibrary
 {
     static class GlobalRules
     {
-        public static List<string> taskAttributes = new List<string>()
-        {
-            "Difficulty",
-            "Urgency",
-            "Fear"
-        };
+
     }
 }

@@ -26,14 +26,21 @@ namespace Life_RPG
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        private Character character;
+        private CharacterInstance character;
         public MainPage()
         {
-            character = new Character();
+            character = Character.Instance;
             this.InitializeComponent();
+
+            this.txtCharacterName.Text = character.Name;
+            this.txtCharacterDescription.Text = character.Description;
+            if (!string.IsNullOrEmpty(character.ImagePath))
+            {
+                this.imgCharacterImage.Source = new BitmapImage(new Uri(character.ImagePath));
+            }
         }
 
-        private async System.Threading.Tasks.Task TxtCharacterDescription_TappedAsync(object sender, TappedRoutedEventArgs e)
+        private async void TxtCharacterDescription_Tapped(object sender, TappedRoutedEventArgs e)
         {
             EditTextDialog dialog = new EditTextDialog(txtCharacterDescription.Text);
             ContentDialogResult buttonClicked = await dialog.ShowAsync();
@@ -52,7 +59,7 @@ namespace Life_RPG
             }
         }
 
-        private async System.Threading.Tasks.Task TxtCharacterName_TappedAsync(object sender, TappedRoutedEventArgs e)
+        private async void TxtCharacterName_Tapped(object sender, TappedRoutedEventArgs e)
         {
             EditTextDialog dialog = new EditTextDialog(txtCharacterName.Text);
             ContentDialogResult buttonClicked = await dialog.ShowAsync();
@@ -71,7 +78,7 @@ namespace Life_RPG
             }
         }
 
-        private async System.Threading.Tasks.Task ImgCharacterImage_TappedAsync(object sender, TappedRoutedEventArgs e)
+        private async void ImgCharacterImage_Tapped(object sender, TappedRoutedEventArgs e)
         {
             FileOpenPicker dialog = new FileOpenPicker();
             dialog.ViewMode = PickerViewMode.Thumbnail;

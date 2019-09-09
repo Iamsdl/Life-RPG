@@ -9,8 +9,13 @@ F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\AppxMan
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Core\AppxManifest.xml
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Core\Life RPG.exe
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Life RPG.build.appxrecipe
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Newtonsoft.Json.dll
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\System.Runtime.dll
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\CharacterLibrary.dll
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\CharacterLibrary.pdb
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\CharacterLibrary.pri
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\Life RPG.csprojAssemblyReference.cache
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\App.g.i.cs
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\App.g.cs
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\Dialogs\EditTextDialog.g.i.cs
@@ -47,4 +52,3 @@ F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\qualifi
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\ProjectArchitectures.txt
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885202160000000.json
-F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\obj\x64\Debug\Life RPG.csprojAssemblyReference.cache
