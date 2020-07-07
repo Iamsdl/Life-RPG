@@ -1,6 +1,9 @@
-﻿namespace CharacterLibrary
+﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
+
+namespace CharacterLibrary
 {
-    public class CharacterInstance
+    public class CharacterInstance : INotifyPropertyChanged
     {
         #region Fields
         private string name;
@@ -11,11 +14,31 @@
         #endregion
 
         #region Properties
-        public string Name { get => name; set => name = value; }
-        public string Description { get => description; set => description = value; }
-        public string ImagePath { get => imagePath; set => imagePath = value; }
-        public int Level { get => level; set => level = value; }
-        public int Exp { get => exp; set => exp = value; }
+        public string Name
+        {
+            get { return name; }
+            set { name = value; NotifyPropertyChanged(); }
+        }
+        public string Description
+        {
+            get { return description; }
+            set { description = value; NotifyPropertyChanged(); }
+        }
+        public string ImagePath
+        {
+            get { return imagePath; }
+            set { imagePath = value; NotifyPropertyChanged(); }
+        }
+        public int Level
+        {
+            get { return level; }
+            set { level = value; NotifyPropertyChanged(); }
+        }
+        public int Exp
+        {
+            get { return exp; }
+            set { exp = value; NotifyPropertyChanged(); }
+        }
         #endregion
 
         public CharacterInstance()
@@ -25,6 +48,12 @@
             Description = string.Empty;
             Level = 1;
             Exp = 0;
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

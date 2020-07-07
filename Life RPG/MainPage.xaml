@@ -26,22 +26,30 @@
                MinHeight="50"
                Tapped="ImgCharacterImage_Tapped"
                VerticalAlignment="Center"
-               HorizontalAlignment="Center"/>
+               HorizontalAlignment="Center"
+               Margin="5"/>
         <StackPanel HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Grid.Column="1"
                     Margin="0,20,0,0">
             <TextBlock Name="txtCharacterName"
-                       Text="Character Name"
+                       Text="{x:Bind Character.Name, Mode=OneWay}"
                        FontSize="40"
                        TextWrapping="WrapWholeWords"
-                       Tapped="TxtCharacterName_Tapped"/>
+                       Tapped="TxtCharacterName_Tapped"
+                       Margin="5"/>
             <TextBlock Name="txtCharacterDescription"
-                       Text="Character Description"
+                       Text="{x:Bind Character.Description, Mode=OneWay}"
                        FontSize="30"
                        TextWrapping="WrapWholeWords"
-                       Tapped="TxtCharacterDescription_Tapped"/>
+                       Tapped="TxtCharacterDescription_Tapped"
+                       Margin="5"/>
         </StackPanel>
+
+        <ListView Grid.Row="1" 
+                 Grid.Column="1"
+                  ItemsSource="">
+        </ListView>
 
 
     </Grid>

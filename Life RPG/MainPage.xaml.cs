@@ -16,6 +16,8 @@ using Life_RPG.Dialogs;
 using Windows.Storage.Pickers;
 using Windows.UI.Xaml.Media.Imaging;
 using CharacterLibrary;
+using System.Linq.Expressions;
+using System.Reflection;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -27,57 +29,49 @@ namespace Life_RPG
     public sealed partial class MainPage : Page
     {
         private CharacterInstance character;
-        public MainPage()
-        {
-            character = Character.Instance;
-            this.InitializeComponent();
 
-            this.txtCharacterName.Text = character.Name;
-            this.txtCharacterDescription.Text = character.Description;
-            if (!string.IsNullOrEmpty(character.ImagePath))
+        public CharacterInstance Character
+        {
+            get => character; set
             {
-                this.imgCharacterImage.Source = new BitmapImage(new Uri(character.ImagePath));
+                character = value;
             }
         }
 
-        private async void TxtCharacterDescription_Tapped(object sender, TappedRoutedEventArgs e)
+        public MainPage()
         {
-            EditTextDialog dialog = new EditTextDialog(txtCharacterDescription.Text);
-            ContentDialogResult buttonClicked = await dialog.ShowAsync();
-            switch (buttonClicked)
-            {
-                case ContentDialogResult.None:
-                    break;
-                case ContentDialogResult.Primary:
-                    txtCharacterDescription.Text = dialog.result;
-                    character.Description = dialog.result;
-                    break;
-                case ContentDialogResult.Secondary:
-                    break;
-                default:
-                    break;
-            }
+            this.InitializeComponent();
+            //Character.
+            Character = CharacterLibrary.Character.Instance;
         }
 
         private async void TxtCharacterName_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            EditTextDialog dialog = new EditTextDialog(txtCharacterName.Text);
+            await ShowEditDialogFor(() => Character.Name, value => Character.Name = value);
+        }
+        private async void TxtCharacterDescription_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            await ShowEditDialogFor(() => Character.Description, value => Character.Description = value);
+        }
+        private async System.Threading.Tasks.Task ShowEditDialogFor(Func<string> getter, Action<string> setter)
+        {
+            EditTextDialog dialog = new EditTextDialog(getter.Invoke());
             ContentDialogResult buttonClicked = await dialog.ShowAsync();
             switch (buttonClicked)
             {
                 case ContentDialogResult.None:
                     break;
                 case ContentDialogResult.Primary:
-                    txtCharacterName.Text = dialog.result;
-                    character.Name = dialog.result;
+                    setter.Invoke(dialog.result);
+                    //Bindings.Update();
                     break;
                 case ContentDialogResult.Secondary:
                     break;
                 default:
                     break;
             }
-        }
 
+        }
         private async void ImgCharacterImage_Tapped(object sender, TappedRoutedEventArgs e)
         {
             FileOpenPicker dialog = new FileOpenPicker();

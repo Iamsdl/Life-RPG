@@ -30,13 +30,13 @@
     <AppXManifest Include="F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-09T19:50:04.737</Modified>
+      <Modified>2019-09-12T09:11:45.800</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Life RPG.exe">
       <PackagePath>entrypoint\Life RPG.exe</PackagePath>
-      <Modified>2019-09-09T19:50:03.574</Modified>
+      <Modified>2019-09-12T09:11:44.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\SDL\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -48,7 +48,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\CharacterLibrary\bin\x64\Debug\CharacterLibrary.dll">
       <PackagePath>CharacterLibrary.dll</PackagePath>
-      <Modified>2019-09-09T19:37:13.502</Modified>
+      <Modified>2019-09-12T09:11:02.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -94,19 +94,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Life RPG.xr.xml">
       <PackagePath>Life RPG.xr.xml</PackagePath>
-      <Modified>2019-09-09T12:20:44.022</Modified>
+      <Modified>2019-09-12T09:11:44.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-09-09T19:50:03.378</Modified>
+      <Modified>2019-09-12T09:11:44.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Dialogs\EditTextDialog.xbf">
       <PackagePath>Dialogs\EditTextDialog.xbf</PackagePath>
-      <Modified>2019-09-09T19:50:03.380</Modified>
+      <Modified>2019-09-12T09:11:44.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-09-09T19:50:03.382</Modified>
+      <Modified>2019-09-12T09:11:44.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -114,11 +114,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-09-09T19:37:19.540</Modified>
+      <Modified>2019-09-12T08:48:49.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\Life RPG\bin\x64\Debug\Core\Life RPG.exe">
       <PackagePath>Life RPG.exe</PackagePath>
-      <Modified>2019-09-09T19:50:04.726</Modified>
+      <Modified>2019-09-12T09:11:45.796</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

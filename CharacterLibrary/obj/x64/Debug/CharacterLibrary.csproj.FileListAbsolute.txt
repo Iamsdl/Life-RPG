@@ -21,3 +21,4 @@ F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\CharacterLibrary\obj\x64\Debug
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\CharacterLibrary\obj\x64\Debug\qualifiers.txt
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\CharacterLibrary\obj\x64\Debug\qualifiers.txt.intermediate
 F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\CharacterLibrary\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\My Stuff\SDL\Programming\GitHub repos\Life-RPG\CharacterLibrary\obj\x64\Debug\CharacterLibrary.csprojAssemblyReference.cache

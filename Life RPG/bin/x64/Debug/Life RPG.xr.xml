@@ -16,6 +16,8 @@
       <RootProperty Name="ColumnDefinitions" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Name" />
@@ -42,6 +44,7 @@
       <RootProperty Name="MinHeight" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
       <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
@@ -50,12 +53,19 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Children" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="ItemsSource" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Name" />
       <RootProperty Name="Text" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Margin" />
       <RootEvent Name="Tapped" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
+      <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="Life_RPG.MainPage" />
   </Roots.RootTypes>
